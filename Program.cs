@@ -1,5 +1,4 @@
-﻿
-int GetNumber(string message)
+﻿int GetNumber(string message)
 {
     Console.Write($"Введите значение {message}:");
     int num = Convert.ToInt32(Console.ReadLine());
